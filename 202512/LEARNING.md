@@ -1,30 +1,51 @@
-## Data Structures
-- array
-	- char array
-	- vector
-- [x] linkedlist
-	- singly
-	- doubly
-- [x] stack
-- [x] queue
-- tree
-	- binary tree
-- priority queue
-- graph
-	- ss shortest paths
-	- cycle finding
-- hashmap (unordered_map)
+## 1. Linear Data Structures
+- **array**
+    - char array
+    - two pointers / sliding window
+    - prefix sum
+    - intervals
+    - bitmap
+- **[x] vector**
+- **[x] linkedlist**
+    - [x] singly
+    - doubly
+    - cycle detection (fast & slow pointer)
+    - reversal
+- **[x] stack**
+    - monotonic stack
+- **[x] queue**
+    - monotonic queue
+- **[x] hashmap (unordered_map)**
 
-## Algorithms
-- sorting
-	- bubble
-	- insertion
-	- selection
-	- merge
-	- quick
-	- counting
-- dynamic programming
-	- memoization
-	- tabulation
-- greedy
-- binary search
+## 2. Non-Linear Data Structures
+- **tree**
+    - binary tree
+    - binary search tree (BST)
+- **heap / priority queue**
+    - min / max heap
+- **graph**
+    - bfs
+    - dfs
+    - cycle detection
+    - topological sort
+    - ss shortest paths
+    	- dijkstra
+    - disjoint set union
+
+## 3. Algorithms & Paradigms
+- **sorting**
+    - bubble
+    - insertion
+    - selection
+    - merge
+    - quick
+    - counting
+- **dynamic programming**
+    - memoization
+    - tabulation
+- **greedy**
+- **recursion**
+    - backtracking
+- **math & bitwise**
+    - sieve of eratosthenes (primes)
+    - bitmasking
