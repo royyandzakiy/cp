@@ -5,8 +5,8 @@
 - [x] linkedlist
 	- singly
 	- doubly
-- stack
-- queue
+- [x] stack
+- [x] queue
 - tree
 	- binary tree
 - priority queue
