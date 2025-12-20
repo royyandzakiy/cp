@@ -2,7 +2,7 @@
 - array
 	- char array
 	- vector
-- linkedlist
+- [x] linkedlist
 	- singly
 	- doubly
 - stack
@@ -11,7 +11,8 @@
 	- binary tree
 - priority queue
 - graph
-	- 
+	- ss shortest paths
+	- cycle finding
 - hashmap (unordered_map)
 
 ## Algorithms

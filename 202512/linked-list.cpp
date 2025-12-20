@@ -16,7 +16,7 @@ Node *reverseLinkedList(Node *head) {
     Node *curr = head;
 
     while (curr != nullptr) {
-        // store temp
+        // store next in temp
         Node *temp_next = curr->next;
 
         // flip
