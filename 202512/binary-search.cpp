@@ -1,5 +1,7 @@
 /**
 
+src: https://www.youtube.com/watch?v=GU7DpgHINWQ&t=800s&pp=ugUEEgJlbg%3D%3D
+
 bin_search_(sorted_arr, target)
     start_idx
     end_idx
