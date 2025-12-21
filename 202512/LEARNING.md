@@ -49,7 +49,7 @@
 - greedy
 - recursion
     - backtracking
-- **math & bitwise**
+- math & bitwise
     - sieve of eratosthenes (primes)
     - bitmasking
 
