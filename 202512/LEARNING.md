@@ -1,4 +1,5 @@
 ## 1. Linear Data Structures
+
 - array
     - char array
     - two pointers / sliding window
@@ -11,23 +12,20 @@
     - doubly
     - cycle detection (fast & slow pointer)
     - reversal
-- **[x] stack**
-
+- [x] stack
     - monotonic stack
-
-- **[x] queue**
-
+- [x] queue
     - monotonic queue
-
-- **[x] hashmap (unordered_map)**
+- [x] hashmap (unordered_map)
 
 ## 2. Non-Linear Data Structures
-- **tree**
+
+- tree
     - binary tree
     - binary search tree (BST)
-- **heap / priority queue**
+- heap / priority queue
     - min / max heap
-- **graph**
+- graph
     - bfs
     - dfs
     - cycle detection
@@ -37,18 +35,19 @@
     - disjoint set union
 
 ## 3. Algorithms & Paradigms
-- **sorting**
+
+- sorting
     - bubble
     - insertion
     - selection
     - merge
     - quick
     - counting
-- **dynamic programming**
+- dynamic programming
     - memoization
     - tabulation
-- **greedy**
-- **recursion**
+- greedy
+- recursion
     - backtracking
 - **math & bitwise**
     - sieve of eratosthenes (primes)
