@@ -1,17 +1,13 @@
 ## 1. Linear Data Structures
-- **array**
+- array
     - char array
     - two pointers / sliding window
     - prefix sum
     - intervals
     - bitmap
-
-- **[x] vector**
-
-- **[x] linkedlist**
-
+- [x] vector
+- [x] linkedlist
     - [x] singly
-
     - doubly
     - cycle detection (fast & slow pointer)
     - reversal
