@@ -1,6 +1,6 @@
 ## 1. Linear Data Structures
 
-- array
+- [x] array
     - char array
     - two pointers / sliding window
     - prefix sum

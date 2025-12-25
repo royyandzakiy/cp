@@ -30,7 +30,7 @@ double fractionalKnapsack(int max_weight, vector<Item> &items) {
         if (curr_weight + item.weight < max_weight) {
             curr_weight += item.weight;
             curr_total_value += item.value;
-        } else {
+        } else { // greed fulfilled, cannot add anymore whole items. eat it's fraction
             auto weight_budget = max_weight - item.weight;
             double item_value_reduced = (double)item.value * ((double)weight_budget / item.weight);
             curr_total_value += item_value_reduced;

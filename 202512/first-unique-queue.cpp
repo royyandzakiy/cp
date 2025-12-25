@@ -16,7 +16,7 @@ char findFirstUnique(const string &str) {
     // if count > 1, pop
     // if queue empty, return `\0`
 
-    queue<char> queue;
+    queue<char> queue_of_unique_chars;
     // char count[256];
     unordered_map<char, int> count;
 
@@ -24,12 +24,12 @@ char findFirstUnique(const string &str) {
         count[letter]++; // by default, value is 0, so using ++ is safe
 
         if (count[letter] == 1)
-            queue.push(letter);
+            queue_of_unique_chars.push(letter);
         else if (count[letter] > 1)
-            queue.pop();
+            queue_of_unique_chars.pop();
     }
 
-    return queue.empty() ? '\0' : queue.front();
+    return queue_of_unique_chars.empty() ? '\0' : queue_of_unique_chars.front();
 }
 
 auto main() -> int {
